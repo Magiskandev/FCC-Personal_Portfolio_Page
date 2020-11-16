@@ -68,11 +68,11 @@
     height: 100vh;    
 }
 
-/* .welcome-title {
+.welcome-title {
     color: white;
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 30%;
     transform: translate(-50%, -50%);
     font-size: 50px;
 }
@@ -81,20 +81,20 @@
     color: white;
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 33%;
     transform: translate(-50%, -50%);
     font-size: 50px;
 }
 
 .welcome-subtitle-2 {
     color: white;
-    position: relative;
+    position: absolute;
     left: 50%;
-    top: 60%;
+    top: 36%;
     transform: translate(-50%, -50%);
     font-size: 45px;
     z-index: 200;
-} */
+}
 
 .main {
     display: flex;
@@ -102,20 +102,78 @@
     color: steelblue;
     text-shadow: 1px 1px 4px darkblue;
     font-size: 30px;
+    font-weight: lighter;
     text-align: center;    
     align-items: center;
+    background-color: lightcyan;
 }
 
-#yo {
+#me {
     /* position: absolute; */
     /* background: url('../images/background-1.jpg') fixed; */
     /* background-blend-mode: hard-light; */
     /* opacity: 0.8; */
     padding: 20px;
     width: 50%;
+    margin: 60px;
 }
 
+#me h2, p {
+    margin-bottom: 40px;
+}
 
+#projects {
+    width: 100%;
+    background-color: lightblue;
+}
+
+#projects h3 {
+    margin-top: 20px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 30px;
+    padding: 20px;
+    margin: 40px 0 40px 0;
+}
+
+.project-tile {
+    background-color: whitesmoke;
+    width: 25%;
+    height: 400px;
+    padding: 20px;
+    border: 4px dashed lightseagreen;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.card-img {
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+button {
+    background-color: lightseagreen;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#contact {
+    background-color: #301755;
+    height: 100px;
+    width: 100%;
+}
+
+@media screen (max-width: 400px) {
+
+}
 
 /* 
 font-family: 'Goldman', cursive;
